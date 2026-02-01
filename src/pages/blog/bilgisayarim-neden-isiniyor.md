@@ -4,7 +4,7 @@ title: "Bilgisayarım Neden Isınıyor? İşte 5 Kesin Çözüm"
 pubDate: 2026-01-31
 description: "Ekran kartı ve işlemci sıcaklık değerleriniz normalin üstünde mi? Isınma sorununu kökten çözecek yöntemleri sizin için derledik."
 author: "PCFix Teknik Ekip"
-image: "https://images.unsplash.com/photo-1593640408183-4a6bd801180b?fit=crop&w=800&q=80"
+image: "https://images.unsplash.com/photo-1624705002806-5d72df19c3ad?auto=format&fit=crop&w=800&q=80"
 category: "Bakım & Onarım"
 ---
 

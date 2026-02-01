@@ -4,7 +4,7 @@ title: "İçerenköy Bilgisayar Teknik Servisi: 15 Dakikada Kapınızda!"
 pubDate: 2026-02-02
 description: "İçerenköy Mahallesi'nde yerinde bilgisayar tamiri, format, fan temizliği ve montaj hizmeti. Bilgisayarınızı taşımayın, biz gelelim."
 author: "PCFix Teknik Ekip"
-image: "https://images.unsplash.com/photo-1593640408183-4a6bd801180b?fit=crop&w=800&q=80"
+image: "https://images.unsplash.com/photo-1588508065123-287b28e013da?auto=format&fit=crop&w=800&q=80"
 category: "Bölgesel Hizmetler"
 ---
 
