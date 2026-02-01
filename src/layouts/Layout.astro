@@ -1,0 +1,31 @@
+---
+import '../styles/global.css';
+
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description = "Ataşehir ve Maltepe'nin en iyi bilgisayar tamir, montaj, format ve teknik servis hizmeti. PCFix ile oyuncu bilgisayarlarınız emin ellerde." } = Astro.props;
+---
+
+<!doctype html>
+<html lang="tr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+		
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>

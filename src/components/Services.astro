@@ -1,0 +1,117 @@
+---
+const services = [
+  {
+    title: "Yerinde Hızlı Servis",
+    desc: "Motorize ekibimizle Ataşehir ve Maltepe'nin her noktasına 15 dakikada ulaşıyoruz. Ağır kasaları taşıma zahmetine son!",
+    icon: "🏍️"
+  },
+  {
+    title: "Ekran Kartı Bakım & Tamir",
+    desc: "Termal macun ve PED değişimi ile ısınma sorununa son. Chipset tamiri ile arızalı kartlarınızı hayata döndürüyoruz.",
+    icon: "🎮"
+  },
+  {
+    title: "Anakart & İşlemci Onarım",
+    desc: "Yamulan işlemci ve soket pinleri düzeltilir. Anakart üzerindeki elektronik arızalar titizlikle onarılır.",
+    icon: "⚡"
+  },
+  {
+    title: "Profesyonel Montaj",
+    desc: "Hayalinizdeki sistemi topluyoruz. Kusursuz kablolama ve hava akışı (airflow) yönetimi ile maksimum performans.",
+    icon: "🖥️"
+  },
+  {
+    title: "Format & Optimizasyon",
+    desc: "Windows kurulumu, güncel sürücüler ve gereksiz servislerin kapatılmasıyla oyunlarda maksimum FPS.",
+    icon: "🚀"
+  },
+  {
+    title: "Detaylı Temizlik ve Bakım",
+    desc: "Periyodik toz temizliği ve fan bakımı ile bilgisayarınızın ömrünü uzatın, gürültüden kurtulun.",
+    icon: "✨"
+  }
+];
+---
+
+<section id="services" class="services">
+  <div class="container">
+    <h2 class="section-title">Hizmet<span class="highlight">lerimiz</span></h2>
+    
+    <div class="services-grid">
+      {services.map(service => (
+        <div class="service-card">
+          <div class="card-icon">{service.icon}</div>
+          <h3>{service.title}</h3>
+          <p>{service.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .services {
+    padding: 100px 0;
+    background: var(--color-bg-dark);
+    position: relative;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .service-card {
+    background: var(--color-bg-card);
+    padding: 2.5rem;
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .service-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-primary);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--gradient-main);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+  .service-card:hover::before {
+    transform: scaleX(1);
+  }
+
+  .card-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-text-main);
+  }
+
+  .service-card p {
+    color: var(--color-text-muted);
+    font-size: 0.95rem;
+  }
+  
+  .highlight {
+    color: var(--color-primary);
+  }
+</style>

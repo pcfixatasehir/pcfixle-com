@@ -1,0 +1,59 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-left">
+      <a href="/" class="logo">PC<span class="highlight">FIX</span></a>
+      <p>Ataşehir & Maltepe Bölgesinin Teknoloji Üssü.</p>
+    </div>
+    
+    <div class="footer-center">
+      <p>&copy; {year} PCFix. Tüm hakları saklıdır.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    padding: 2rem 0;
+    background: #000;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-family: var(--font-heading);
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+
+  .highlight {
+    color: var(--color-primary);
+  }
+
+  .footer-left p {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+
+  .footer-center {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      gap: 1.5rem;
+      text-align: center;
+    }
+  }
+</style>
