@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "İnönü Mahallesi Bilgisayar Hızlandırma: AtlasOS ve Ghost Spectre ile Eski PC'nizi Uçurun"
+title: "İnönü Mahallesi Bilgisayar Hızlandırma: AtlasOS ile FPS Artırma ve Eski PC Yenileme"
 pubDate: 2026-02-06
 description: "Düşük RAM'li bilgisayarınızda Windows kasıyor mu? İnönü Mahallesi sakinleri için 'Format' ve 'Hızlandırma' rehberi. Valorant, CS2 ve Minecraft için en iyi Windows sürümleri: AtlasOS ve Ghost Spectre."
 author: "PCFix Teknik Ekip"
