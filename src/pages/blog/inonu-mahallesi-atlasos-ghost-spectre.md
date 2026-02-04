@@ -4,7 +4,7 @@ title: "İnönü Mahallesi Bilgisayar Hızlandırma: AtlasOS ve Ghost Spectre il
 pubDate: 2026-02-06
 description: "Düşük RAM'li bilgisayarınızda Windows kasıyor mu? İnönü Mahallesi sakinleri için hafifletilmiş Windows sürümlerini (AtlasOS, Ghost Spectre) inceledik. Artıları, eksileri ve kurulum rehberi."
 author: "PCFix Teknik Ekip"
-image: "https://images.unsplash.com/photo-1593640408183-4a6bd801180b?auto=format&fit=crop&w=600&q=70&fm=webp"
+image: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=600&q=70&fm=webp"
 category: "Yazılım ve Performans"
 ---
 
